@@ -1,13 +1,20 @@
+[general]
+
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
 [font]
 
 normal = { family = "MesloLGS NF", style = "Regular" }
-
 bold = { family = "MesloLGS NF", style = "Bold" }
-
 italic = { family = "MesloLGS NF", style = "Italic" }
-
 bold_italic = { family = "MesloLGS NF", style = "Bold Italic" }
 
 [terminal]
 
-shell = { program = "/usr/bin/fish" }
+shell = { program = "/usr/bin/zellij" }
+
+[window]
+
+opacity = 0.7
